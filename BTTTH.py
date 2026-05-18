@@ -20,7 +20,7 @@ patient_random_code = random.randint(100, 999)
 patient_code = f"BN{patient_year_of_birth}{patient_random_code}"
 
 print("--- THẺ BỆNH NHÂN ---")
-print(f"Mã BN       : {patient_code}")
+print(f"Mã BN       : {patient_code} \n")
 print(f"Tên         : {name_patient} ({type(name_patient).__name__})")
 print(f"Giới tính   : {patient_gender} ({type(patient_gender).__name__})")
 print(f"Năm sinh    : {patient_year_of_birth} ({type(patient_year_of_birth).__name__})")
